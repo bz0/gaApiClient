@@ -1,0 +1,13 @@
+{
+    "require": {
+        "google/apiclient": "1.*",
+        "cakephp/chronos": "@stable",
+        "wataridori/chatwork-sdk": "^0.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\models\\": "src/models/"
+          , "src\\templates\\": "src/templates/"
+        }
+    }
+}
